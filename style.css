@@ -1,0 +1,28 @@
+.contner{
+display: grid;
+grid-template-columns: 33% 33% 33%;
+grid-template-rows: 200px 200px;
+grid-column-gap: 10px;
+grid-row-gap: 10px;
+}
+.box{
+background-color: brown;
+text-align: center;
+}
+.box1{
+    grid-column-start: 1;
+    grid-column-end:2 ;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.box3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 5px;
+}
+p{
+    background-color: rgb(149, 20, 230);
+}
+.box4{
+    border-radius: 90%;
+}
